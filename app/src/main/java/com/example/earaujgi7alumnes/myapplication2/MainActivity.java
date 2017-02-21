@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //Comentario 1
         Button createButton = (Button)findViewById(R.id.create);
         createButton.setOnClickListener(new View.OnClickListener()
         {
